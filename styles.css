@@ -1,0 +1,123 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.nav-list a {
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.join-button {
+    background-color: #00754a;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+.hero {
+    display: flex;
+    background-color: #006241;
+    color: white;
+    padding: 40px 20px;
+    align-items: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.hero-image img {
+    border-radius: 10px;
+    width: 300px;
+}
+
+.hero-text {
+    max-width: 600px;
+    text-align: left;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-text span {
+    color: #ffcc00;
+}
+
+.hero-text p {
+    font-size: 1rem;
+}
+
+.seasonal-offers {
+    text-align: center;
+    padding: 20px;
+    background-color: #0805f0;
+    color: white;
+}
+
+.seasonal-offers h2 {
+    font-size: 1.8rem;
+}
+
+.seasonal-offers p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.drinks-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.drinks-container img {
+    border-radius: 10px;
+    width: 100px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f4f4f4;
+    color: #666;
+}
