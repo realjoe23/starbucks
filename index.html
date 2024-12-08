@@ -1,62 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage | Starbucks</title>
+    <title>Homepage | Starbuckss</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon"
-        href="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png"
-        type="image/png">
+    <link rel="icon" href="https://e7.pngegg.com/pngimages/228/114/png-clipart-starbucks-logo-cafe-starbucks-tea-coffee-starbucks-leaf-company.png"> 
 </head>
-
 <body>
-    <header class="header">
-        <class="logo-container">
-            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png"
-                alt="Starbucks Logo" class="logo">
-            </class>
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li><a href="#">MENU</a></li>
-                    <li><a href="#">REWARDS</a></li>
-                    <li><a href="#"><img src="https://www.iconpacks.net/icons/2/free-location-icon-2952-thumb.png"
-                                alt="location" height="20px" width="20px"> Localizar Tienda</a></li>
-                    <li><a href="#">Ingresar</a></li>
-                    <li><a href="#" class="join-button">Unete</a></li>
-                </ul>
-            </nav>
-    </header>
 
-    <main>
-        <section class="hero">
-            <class="hero-content">
-                <class="hero-image">
-                    <img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2F2024-10_SB_Latte.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max"
-                        alt="Barista con café" height="300px" width="500px">
-                    </class>
-                    <class="hero-text">
-                        <p>Por nuestro amor al café, a nuestros partners y a nuestros clientes. ¡Estamos felices de
-                            verte todos los días!</p>
-                        </class>
-                        </class>
+  <!--BARRA DE NAVEGACIÓN-->
+    <nav class="navbar">
+        <section class="navbar-container">
+          <section class="navbar-brand">
+            <a href="index.html"><img src="https://static.vecteezy.com/system/resources/previews/022/636/379/non_2x/starbucks-logo-starbucks-icon-transparent-free-png.png" alt="Starbucks" /></a>
+          </section>
+  
+          <ul class="navbar-nav-left">
+            <li> <a href="menu.html">Menu</a></li>
+            <li><a href="rewards.html">Rewards</a></li>
+          </ul>
+  
+          <ul class="navbar-nav-right">
+            <li><a href="https://www.starbucks.com.mx/stores"><img src="https://cdn-icons-png.flaticon.com/512/80/80569.png" alt="localizar logo" /></a></li>
+            <li> <p>Localizar tienda</p></li>
+            <li><button class="boton-ingresar">Ingresar</button></li>
+            <li><button class="boton-unete">Únete</button></li>
+          </ul>
         </section>
+        </nav> 
 
-        <section class="seasonal-offers">
-            <h2>CELEBREMOS CON LOS FAVORITOS DE LA TEMPORADA</h2>
-            <p>¡Disfruta esta temporada con el regreso de Cranberry Mocha Blanco acompañado de Toffee Nut Latte, Red
-                Velvet Latte, Hazelnut Caramel Latte y Holiday Cinnamon!</p>
-            <class="drinks-container">
-                <img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2FHOLIDAY_2024-Spooky.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max"
-                    alt="Drinks" height="300px" width="500px">
-                </class>
-        </section>
-    </main>
+        <!--Secciones de rectangulos -->
+
+    <!--Rectangulo verde-->
+
+    <section class="rectangulo" id="rectangulo-verde">
+      <img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2F2024-10_SB_Latte.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max">
+      <section class="textos">
+          <h2>STARBUCKS LATTE POR TI</h2>
+          <p>Por nuestro amor al café, a nuestros partners y a nuestros clientes.</p>
+          <p>¡Estamos felices de verte todos los días!</p>
+      </section>
+  </section>
+
+  <!--Rectangulo azul-->
+  <section class="rectangulo" id="azul">
+      <img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2FHOLIDAY_2024-Spooky.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max">
+      <section class="textos">
+          <h2>CELEBREMOS CON LOS FAVORITOS DE LA TEMPORADA</h2>
+          <p>¡Disfruta esta temporada con el regreso de Cranberry Mocha Blanco acompañados de Toffee Nut latte, Red Velvet Latte, Hazelnut Caramel latte y Holiday Cinnamon!.</p>
+      </section>
+  </section>
+
+  <!--Rectangulo rojo-->
+  <section class="rectangulo" id="rojo"> 
+      <img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2FMerch.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max">
+      <section class="textos">
+          <h2>EL CAFÉ PERFECTO PARA ESTA TEMPORADA</h2>
+          <p>Una taza de café preparada con Christmas Blend es la excusa perfecta para disfrutar con tus seres queridos.</p>
+          <p>#StarbucksLatte</p>
+      </section>
+  </section>
+
+  <!--Rectangulo cuatro-->
+  <section class="rectangulo" id="cuatro">
+      <img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2Fstarbucks_rewards.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max">
+      <section class="textos">
+          <h2>RECOMPENSAS EN TU BEBIDA FAVORITA</h2>
+          <p>Sé parte de Starbucks Rewards y obtén más café gratis, promociones exclusivas, accesos a productos antes que nadie y más.</p>
+      </section>
+  </section>
+
+
+  <!--Rectangulo quinto-->
+  <section class="rectangulo" id="quinto">
+      <img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2F2024-10_HOLIDAY_2024_Apple%20(1).png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max">
+      <section class="textos">
+          <h2> TODO Y TODOS POR EL PLANETA </h2>
+          <p>Trae tu vaso o termo favorito y obtén $8 de descuento en tu bebida</p>
+          <button class="conocemas"> 
+              <a href="https://www.starbucks.com.mx/articulo/todo-y-todos-por-el-planeta-0">Conoce más</a>
+           </button>
+      </section>
+  </section>
+
+
+  <!--DOS CUADROS-->
+   <section class="tarjetas">
+
+    <section class="cuadro1" >
+      <a><img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2FNoticias.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max" id="cards"></a>
+              <section class="texto-primero">
+              <p>Consulta los eventos más recientes.</p>
+              <button id="boton-aqui">
+                <a href="https://www.starbucks.com.mx/seccion/boletines">Aquí</a>
+              </button>
+              </section>
+      </section>  
+
+
+      <section class="cuadro2" >
+        <a><img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2FTC.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max" id="cards"></a>
+                <section class="texto-segundo">
+                  <p>Términos y condiciones.</p>
+                  <button id="boton-vermas">
+                      <a href="https://www.starbucks.com.mx/seccion/terminos-y-condiciones">Ver más</a>
+                  </button>
+                </section>
+        </section>  
+    
+</section>
+
+</section> 
+
+
+  
+
+    <!--PIE DE PÁGINA-->
 
     <footer class="footer">
-        <p>&copy; 2024 Starbucks Coffee Company. Todos los derechos reservados.</p>
-    </footer>
-</body>
 
-</html>
+        <section class="listas" >
+
+          <ul id="invisible"> Sobre nosotros
+            <li><a href="https://www.starbucks.com.mx/seccion/trabaja-con-nosotros">Trabaja con nosotros</a></li>
+            <li><a href="https://historias.starbucks.com/es/"> Historias Starbucks </a></li>
+          </ul>
+
+          <ul id="invisible"> Atención al cliente
+            <li><a href="https://rewards.starbucks.mx/atencion-cliente">Contáctanos</a></li>
+            <li><a href="https://alsea.interfactura.com/RegistroDocumento.aspx?opc=Starbucks">Facturas electrónicas</a></li>
+            <li><a href="https://www.starbucks.com.mx/seccion/experiencia-starbucks">Formas de comprar</a></li>
+            
+          </ul>
+        </section>
+
+        <section class="footer-container">
+          <section class="redes">
+            
+            <a href="https://www.facebook.com/StarbucksMexico" target="_blank">
+              <img src="https://thumbs.dreamstime.com/b/logo-de-facebook-en-blanco-y-negro-con-fondo-redondeado-fines-web-impresi%C3%B3n-165852149.jpg" alt="facebook" />
+            </a>
+          
+            <a href="https://www.instagram.com/starbucksMex/" target="_blank">
+              <img src="https://cdn-icons-png.flaticon.com/512/4401/4401407.png" />
+            </a>
+
+            <a href="https://x.com/StarbucksMex" target="_blank">
+              <img src="https://w7.pngwing.com/pngs/541/840/png-transparent-logo-computer-icons-black-and-white-twitter-header-miscellaneous-monochrome-computer-wallpaper-thumbnail.png" alt="" />
+            </a>
+
+            <a href="https://www.youtube.com/@StarbucksMexico" target="_blank">
+              <img src="https://st3.depositphotos.com/1144386/16822/v/450/depositphotos_168222606-stock-illustration-modern-black-round-square-youtube.jpg" alt="" />
+            </a>
+
+           
+          </section>
+          <p>© 2021 Starbucks Coffee Company. All rights reserved.</p>
+        </section>
+
+      </footer>
+    
+    </div>
+
+</body>
+</html>     
