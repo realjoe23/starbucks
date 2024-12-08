@@ -1,22 +1,22 @@
-body{
+body {
     font-family: sans-serif;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     margin: 0;
     padding: 0;
-    overflow-x: hidden; 
+    overflow-x: hidden;
     box-sizing: border-box;
-  }
-    
+}
 
-ul{
-    
+
+ul {
+
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
-    margin:1vw;
+    margin: 1vw;
 }
 
 /* NAVBAR */
@@ -31,73 +31,74 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-around;
-  }
-  
-  .navbar-container {
+}
+
+.navbar-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 
-  }
-  
+}
 
- 
-  .navbar ul {
+
+
+.navbar ul {
     display: flex;
     align-items: center;
-  }
-  
-  .navbar li {
+}
+
+.navbar li {
     margin: 0 5px;
     font-weight: bold;
-  }
-  
-  .navbar-nav-left li {
+}
+
+.navbar-nav-left li {
     margin: 0 -5px;
     font-weight: bold;
-  }
-  .navbar a {
+}
+
+.navbar a {
     color: #000;
     text-decoration: none;
-  }
-  
-  .navbar a:hover {
+}
+
+.navbar a:hover {
     color: var(--color-primary);
-  }
-  
-  .navbar-brand img {
+}
+
+.navbar-brand img {
     width: 75px;
     height: 75px;
     margin-right: -50px;
-  }
-  
-  .navbar-nav-left {
-    text-transform: uppercase;
-    flex:1;
-  }
-  
-  .navbar-nav-left:hover{
-  color: rgb(20, 88, 20);
-  }
+}
 
-  
-  .navbar-nav-right{
-    display:flex;
+.navbar-nav-left {
+    text-transform: uppercase;
+    flex: 1;
+}
+
+.navbar-nav-left:hover {
+    color: rgb(20, 88, 20);
+}
+
+
+.navbar-nav-right {
+    display: flex;
     flex-direction: row;
     margin: 0 18vw;
     margin-right: 0;
-  }
+}
 
-  .navbar-nav-right img {
-    display:flex;
+.navbar-nav-right img {
+    display: flex;
     height: 20px;
     width: 20px;
     margin-right: -30px;
-  }
+}
 
-  /* BOTONES */
-  .boton-ingresar{
+/* BOTONES */
+.boton-ingresar {
     background-color: white;
     border-radius: 3vw;
     font-weight: bold;
@@ -105,38 +106,38 @@ a{
     width: 7vw;
     height: auto;
 
-  }
+}
 
-  .boton-unete{
+.boton-unete {
     background-color: black;
-    color:white;
+    color: white;
     font-weight: bold;
     border-radius: 3vw;
     padding: 3%;
     width: 8vw;
-  }
+}
 
 /* MENÚ */
 
-.titulos{
+.titulos {
     margin-top: 2vw;
     margin-left: 13vw;
     margin-right: 13vw;
-    
+
 }
 
-.titulos h2{
+.titulos h2 {
     margin-top: 0;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
-    
+
 }
 
-.titulos p{
+.titulos p {
     font-weight: 600;
 }
 
-.bebidas{
+.bebidas {
     font-weight: 200;
     margin-top: 2vw;
     margin-left: 13vw;
@@ -145,7 +146,7 @@ a{
     border-bottom: 1px solid gray;
 }
 
-.bebidascalientesicono img{
+.bebidascalientesicono img {
     width: 8vw;
     height: 9vw;
     display: flex;
@@ -153,11 +154,11 @@ a{
     align-items: center;
 }
 
-.bebidascalientesicono{
+.bebidascalientesicono {
     margin-top: 2vw;
     margin-left: 3vw;
     margin-right: 2vw;
-    width: 9.3vw;    
+    width: 9.3vw;
     background-color: rgb(15, 45, 15);
     border-top-left-radius: 100%;
     border-top-right-radius: 100%;
@@ -166,47 +167,47 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
+
 
 }
 
 
-.bebidasiconos{
+.bebidasiconos {
     display: grid;
     row-gap: 3vw;
     column-gap: 2vw;
     grid-template-columns: repeat(3, 1fr);
     margin-left: 13vw;
-    margin-right: 13vw; 
+    margin-right: 13vw;
 }
 
 
-.textouno{
+.textouno {
     display: flex;
     justify-content: center;
     font-weight: 600;
     margin-right: 7vw;
 }
 
-.textalimentos{
+.textalimentos {
     margin-left: 5vw;
     font-weight: 600;
 }
 
 
-.textcafe{
+.textcafe {
     margin-left: 3vw;
     font-weight: 600;
 }
 
-.containeralimentos{
+.containeralimentos {
     margin-left: 16vw;
     margin-right: 13vw;
 }
 
 
 
-.alimentos{
+.alimentos {
     font-weight: 200;
     margin-top: 2vw;
     margin-left: 13vw;
@@ -215,11 +216,12 @@ a{
     border-bottom: 1px solid gray;
 }
 
-.containercafe{
+.containercafe {
     margin-left: 16vw;
     margin-right: 13vw;
 }
-.cafe{
+
+.cafe {
     font-weight: 200;
     margin-top: 2vw;
     margin-left: 13vw;
@@ -231,47 +233,47 @@ a{
 
 
 
-  /* FOOTER */
+/* FOOTER */
 
-.redes img{
+.redes img {
     width: 2.3%;
     height: auto;
-   
-  }
-  
-  .footer {
-      text-align: center;
-      width: 100%;
-      height: auto;
-      background-color: #fff;
-      padding: 2%;
-      box-shadow: 0 1px 3px rgb(128, 124, 124);
-      margin-top: 2vw;
-    }
-  
-    .listas{
-        color:rgb(81, 74, 74);
-        display: flex;
-        flex-direction: row;
-        justify-self: start;
-        margin-left: 14vw;
-        margin-bottom: 2vw;
-        text-align: start;
 
-      }
-      
-  
-   .listas li{
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding: 2%;
+    box-shadow: 0 1px 3px rgb(128, 124, 124);
+    margin-top: 2vw;
+}
+
+.listas {
+    color: rgb(81, 74, 74);
+    display: flex;
+    flex-direction: row;
+    justify-self: start;
+    margin-left: 14vw;
+    margin-bottom: 2vw;
+    text-align: start;
+
+}
+
+
+.listas li {
     padding: 1vw;
     margin-left: -23px;
     font-size: 13px;
-   }
+}
 
-   .listas li:nth-child(1){
+.listas li:nth-child(1) {
     padding-top: 2vw;
-   }
+}
 
-  .footer-container {
+.footer-container {
     width: 80%;
     max-width: 100%;
     margin: 0 auto;
@@ -280,66 +282,70 @@ a{
     border-top-style: solid;
     border-top-color: rgb(216, 215, 215);
     padding-top: 3%;
-  }
+}
 
 
 
 
 
-  @media (min-width: 300px) and (max-width: 1100px){
-    .navbar{
-        display:flex;
+@media (min-width: 300px) and (max-width: 1100px) {
+    .navbar {
+        display: flex;
         width: 100%;
         justify-content: center;
         margin: 0vw;
     }
 
-    .navbar-container{
+    .navbar-container {
         display: flex;
         justify-content: center;
     }
-    .navbar-nav-left{
+
+    .navbar-nav-left {
         display: flex;
         flex-direction: column;
 
-        
+
     }
-    .navbar-nav-right{
-        display:flex;
+
+    .navbar-nav-right {
+        display: flex;
         flex-direction: column;
         margin: 0;
         margin-right: 0;
         margin: 0vw;
-      }
+    }
 
-      .boton-ingresar{
+    .boton-ingresar {
         padding: 3%;
         width: 18vw;
-      }
-    
-      .boton-unete{
+    }
+
+    .boton-unete {
         padding: 3%;
         width: 18vw;
-      }
+    }
 
-  }
-  @media (min-width: 300px) and (max-width: 1100px){
-body{
-    margin: 0;
-    margin-right: 0;
-    overflow-x: hidden; 
-    box-sizing: border-box;
 }
 
-  }
-  @media (min-width: 300px) and (max-width: 1100px){
-    .bebidascalientesicono{
+@media (min-width: 300px) and (max-width: 1100px) {
+    body {
+        margin: 0;
+        margin-right: 0;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+
+}
+
+@media (min-width: 300px) and (max-width: 1100px) {
+    .bebidascalientesicono {
         width: 40vw;
         margin-left: 0vw;
         margin-right: 0vw;
     }
-    
-    .bebidasiconos{
+
+    .bebidasiconos {
         grid-template-columns: repeat(2, 1fr);
         row-gap: 5vw;
         column-gap: 9vw;
@@ -347,28 +353,29 @@ body{
         margin-right: 0;
     }
 
-    .bebidascalientesicono img{
-       width: 30vw;
-       height: 33vw;
-  }
+    .bebidascalientesicono img {
+        width: 30vw;
+        height: 33vw;
+    }
 
-  .containercafe, .containeralimentos{
-    margin-right: 0vw;
-    margin-left: 8vw;
-  }
+    .containercafe,
+    .containeralimentos {
+        margin-right: 0vw;
+        margin-left: 8vw;
+    }
 }
 
-@media (min-width: 300px) and (max-width: 1100px){
-    .listas{
+@media (min-width: 300px) and (max-width: 1100px) {
+    .listas {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         margin-left: 2vw;
         margin-bottom: 2vw;
 
-      }
+    }
 
-      .footer-container {
+    .footer-container {
         width: 100%;
         margin: 0 auto;
         padding: 0;
@@ -376,13 +383,13 @@ body{
         border-top-style: solid;
         border-top-color: rgb(216, 215, 215);
         padding-top: 3%;
-      }
+    }
 
-      .redes img{
+    .redes img {
         width: 8vw;
         height: auto;
-       
-      }
+
+    }
 
 
 }
