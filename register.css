@@ -1,0 +1,286 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  margin: 0vw;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  margin: 1.8vw;
+}
+
+
+
+header {
+  position: fixed;
+  top: 0;
+  background: white;
+  z-index: 10;
+  width: 100vw;
+}
+
+.navbar {
+  width: 100%;
+  height: 4.5vw;
+  background-color: #fff;
+  padding: 1vw;
+  box-shadow: 0 4px 8px rgb(128, 124, 124);
+  padding-left: 9vw;
+  padding-right: 9vw;
+  margin-bottom: 0px;
+
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 3vw;
+  padding-right: 20vw;
+}
+
+
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+}
+
+.navbar li {
+  margin: 0 5px;
+  font-weight: bold;
+}
+
+.navbar-nav-left li {
+  margin: 0 -5px;
+  font-weight: bold;
+}
+
+.navbar a {
+  color: #000;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: var(--color-primary);
+}
+
+.navbar-brand img {
+  width: 75px;
+  height: 75px;
+  margin-right: -50px;
+}
+
+.navbar-nav-left {
+  text-transform: uppercase;
+  flex: 1;
+}
+
+.navbar-nav-left:hover {
+  color: rgb(20, 88, 20);
+}
+
+
+.navbar-nav-right {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-nav-right img {
+  display: flex;
+  height: 20px;
+  width: 20px;
+  margin-right: -30px;
+}
+
+
+.boton-ingresar {
+  background-color: white;
+  border-radius: 2vw;
+  font-weight: bold;
+  padding: 4%;
+  width: 7vw;
+  height: auto;
+
+}
+
+.boton-unete {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 2vw;
+  padding: 4%;
+  width: 8vw;
+}
+
+.left-container {
+  position: fixed;
+  top: 1;
+
+  width: 35vw;
+  height: 100vh;
+  background: linear-gradient(0deg, rgb(29, 57, 50) 0%, rgb(10, 105, 75) 100%);
+  color: white;
+  margin: 0;
+  padding: 3vw;
+  margin-left: 0px;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 35px;
+}
+
+.left-container p {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0vw;
+}
+
+
+
+
+.right-container {
+  width: 50vw;
+  margin-left: 32vw;
+  margin-top: 7vw;
+  width: calc(100vw - 25vw);
+  text-align: center;
+  padding: 2%;
+
+}
+
+.banner {
+  background-color: rgb(22, 6, 6);
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+}
+
+.last-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.last-textos {
+  margin-top: 2vw;
+}
+
+.last-textos p {
+  font-size: 18px;
+  width: 35vw;
+  margin-left: 17vw;
+  text-align: start;
+  margin-top: -0.5vw;
+}
+
+.last-visual {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 18vw;
+}
+
+.last-visual img {
+  width: 17vw;
+
+}
+
+#unete-ahora {
+  background-color: white;
+  border-radius: 2vw;
+  border-color: rgb(47, 136, 47);
+  font-weight: bold;
+  Padding: 0.7rem 1.4rem;
+  color: rgb(66, 121, 66);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.2rem;
+  height: 45px;
+  padding-left: 55px;
+  padding-right: 5px;
+
+}
+
+
+
+/* FOOTER */
+
+.redes img {
+  width: 2vw;
+  height: auto;
+  margin: 10px;
+}
+
+.footer {
+  text-align: center;
+  width: 70vw;
+  height: auto;
+  background-color: #fff;
+  padding: 15px;
+  box-shadow: 0 1px 3px rgb(128, 124, 124);
+  margin-top: 0vw;
+  margin-left: -1vw;
+  padding-top: 2vw;
+  background-color: rgb(227, 227, 227);
+}
+
+
+
+.footer-container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 30px 30px;
+
+}
+
+.listas {
+  display: flex;
+  flex-direction: row;
+  margin-left: 3vw;
+  margin-bottom: 5vw;
+  font-size: 17px;
+  text-decoration: none;
+  color: gray;
+
+}
+
+#lista-unoo {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+#lista-doss {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  margin-left: -3vw;
+}
+
+.listas li {
+  padding: 1vw;
+}
